@@ -1,0 +1,20 @@
+Parameter Log:
+iterations: 10
+n_samples: 4
+epochs: 100
+lr: 0.008
+dropout: 0.3
+batch_size: 32
+n_iterations: 35
+patience: 4
+min_delta: 1
+folder_from: None
+folder_to: run6_passive
+base_dir: /Users/KU1247/Desktop/active_learning_code/
+parameter_for_outlier_method: 2
+neurons: 256
+experiment: passive
+starting_percentage: 0.2
+length_X_labeled_initial: 9803
+length_X_labeled: 9843
+
