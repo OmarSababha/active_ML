@@ -2,11 +2,13 @@
 
 ## Overview
 
-This repository contains the code and data for the Lumos5G experiment, which compares the performance of active and passive strategies in a 5G environment. The main script `lumos5g_active_many_to_many.ipynb` runs the experiments, and the `plot.ipynb` script generates comparative plots of the results.
+This code is used in a manuscript submission under the title: **"Active ML for 6G: Towards Efficient Data Generation, Acquisition, and Annotation"**.
+
+As part of a manuscript submission, this repository contains the code and data for an active machine learning case study performed on the Lumos5G dataset. We compare the performance of uncertainty sampling (active ML) to the passive ML approach. The main script `lumos5g_active_many_to_many.ipynb` can be used to run an experiment, and `plot.ipynb` generates comparative plots of the results after running multiple experiments.
 
 ## Files
 
-- `lumos5g_active_many_to_many.ipynb`: Main script for running the experiments.
+- `lumos5g_active_many_to_many.ipynb`: Main script for running an experiment.
 - `plot.ipynb`: Script for plotting the results.
 - `Lumos5G-v1.0.csv`: Dataset used for the experiments.
 
@@ -22,15 +24,16 @@ This repository contains the code and data for the Lumos5G experiment, which com
 1. **Setup**: Open `lumos5g_active_many_to_many.ipynb` and configure the parameters at the top of the notebook:
    - `base_dir`: Set this to your own directory where the results will be saved.
    - `experiment_type`: Choose either `"active"` or `"passive"` depending on the type of experiment.
-   - `output_folder`: Specify the name of the folder where results will be saved (e.g., `run1_active`, `run2_active`, `run1_passive`, `run2_passive`).
+   - `output_folder`: Specify the name of the folder where results will be saved. For example, if your experiment_type is "active", then you can name set the output_folder to "run1_active".
 
-2. **Execution**: Run the notebook. Repeat this process multiple times to produce several folders with different configurations (e.g., `run1_active`, `run2_active`, `run1_passive`, `run2_passive`).
+2. **Execution**: Run the notebook (`lumos5g_active_many_to_many.ipynb`). Repeat this process multiple times to produce several folders with different configurations (e.g., `run1_active`, `run2_active`, `run1_passive`, `run2_passive`). This process takes time. Therefore, we have also saved some folders that were used to produce the figure in the manuscript.
+
 
 ### Plotting the Results
 
 1. **Setup**: Open `plot.ipynb`.
 
-2. **Execution**: Run the notebook to generate comparative plots of the performance of the active and passive runs.
+2. **Execution**: Run the notebook to generate comparative plots of the performance of the active and passive runs. Note, you need to select the folders that are part of the "active" strategy and the folders that are part of the "passive" strategy.
 
 ## Example
 
@@ -51,4 +54,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact
 
-For any questions or issues, please contact [Your Name] at [Your Email].
+For any questions or issues, please contact Omar Alhussein. You can find my email in the paper.
