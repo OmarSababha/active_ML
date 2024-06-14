@@ -2,7 +2,7 @@
 
 ## Overview
 
-This code is used in a manuscript submission under the title: **"Active ML for 6G: Towards Efficient Data Generation, Acquisition, and Annotation"**. The pre-print of the manuscript is available on [arXiv:2406.03630v1]{https://arxiv.org/abs/2406.03630v1}.
+This code is used in a manuscript submission under the title: **"Active ML for 6G: Towards Efficient Data Generation, Acquisition, and Annotation"**. The pre-print of the manuscript is available on [arXiv:2406.03630v1](https://arxiv.org/abs/2406.03630v1).
 
 As part of a manuscript submission, this repository contains the code and data for an active machine learning case study performed on the Lumos5G dataset. We compare the performance of uncertainty sampling (active ML) to the passive ML approach. The main script `lumos5g_active_many_to_many.ipynb` can be used to run an experiment, and `plot.ipynb` generates comparative plots of the results after running multiple experiments.
 
