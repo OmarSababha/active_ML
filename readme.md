@@ -1,4 +1,4 @@
-# Lumos5G: Active vs Passive Experiment
+# Active ML for 6G: comparing active vs. passive ML on Lumos5G Dataset
 
 ## Overview
 
